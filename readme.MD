@@ -1,4 +1,4 @@
 # Python Countdown timer
 Features:
- * Sounds
+ * Ending sounds
  * User Input
