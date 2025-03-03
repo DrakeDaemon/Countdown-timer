@@ -55,27 +55,3 @@ app = App()
 
 if __name__ == '__main__':
     app.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# try:
-#     usr_t = int(input('Enter Total Number of Seconds for Countdown Timer:\n'))
-#     countdown(usr_t)
-# except ValueError:
-#     print("An error occurred.")
-#     exit()
-# except KeyboardInterrupt:
-#     print("Shutting off.")
-#     exit()
