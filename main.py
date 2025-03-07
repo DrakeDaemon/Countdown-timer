@@ -25,7 +25,7 @@ class App(customtkinter.CTk):
 
         self.sound_label = customtkinter.CTkLabel(self, text='Select your sound:', font=('Arial', 12))
         self.sound_label.grid(padx=5, row=2, column=0, sticky='w')
-        self.combo = customtkinter.CTkComboBox(self, values=['Water Drop', 'Loud', 'Notification', 'Success'])
+        self.combo = customtkinter.CTkComboBox(self, values=['Water Drop', 'Loud', 'Notification', 'Success'], state='readonly')
         self.combo.grid(padx=5, pady=5, column=0, row=3, sticky='sew')
 
         self.button = customtkinter.CTkButton(self, text='Start countdown', command=self.event, width=158)
